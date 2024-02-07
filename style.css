@@ -16,6 +16,8 @@ body{
 }
 
 #relogio{
+    border-top: 1px solid #191919;
+    border-left: 1px solid #191919;
     height: 250px;
     width: 550px;
     margin: auto auto;
