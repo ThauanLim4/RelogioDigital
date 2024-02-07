@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?família PT+Sans+Narrow (trata) &display-swap');
+
+body{
+    color: white;
+    height: 100vh;
+    background: linear-gradient(180deg, #E1F0DA, #D4E7C5) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#relogio{
+    height: 250px;
+    width: 550px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+}
+
+#relogio div {
+    padding: 0.3em 1em;
+    background-color: #191919;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+#horas, #minutos, #segundos {
+    font-size: 5em;
+    font-weight: 700;
+    cursor: pointer;
+}
