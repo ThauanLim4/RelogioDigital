@@ -45,3 +45,21 @@ body{
     font-weight: 700;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 468px) {
+    #relogio{
+        height: 170px;
+        width: 300px;
+    }
+
+    #relogio div {
+        height: 110px;
+        width: 50px;
+    }
+
+    #horas, #minutos, #segundos {
+        font-size: 3em;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
