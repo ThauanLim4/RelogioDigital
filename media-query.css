@@ -39,3 +39,22 @@
         cursor: pointer;
     }
 }
+
+@media screen and (min-width: 669px) {
+    body{
+        background: linear-gradient(180deg, #E1F0DA, #D4E7C5) no-repeat;
+    }
+    .relogio{
+        height: 250px;
+        width: 550px;
+    }
+    
+    .relogio div {
+        width: 80px;
+        height: 170px;    
+    }
+    
+    .horas, .minutos, .segundos {
+        font-size: 5em;
+    }
+}
