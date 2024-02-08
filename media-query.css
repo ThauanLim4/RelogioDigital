@@ -1,0 +1,41 @@
+@media screen and (max-width: 468px) {
+    body{
+        background: linear-gradient(180deg, #43766C, #345b53) no-repeat;
+    }
+    .relogio{
+        height: 170px;
+        width: 300px;
+    }
+
+    .relogio div {
+        height: 110px;
+        width: 50px;
+    }
+
+    .horas, .minutos, .segundos {
+        font-size: 3em;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 469px ) and (max-width: 668px) {
+    body{
+        background: linear-gradient(180deg, #B7E5B4, #9cc599) no-repeat;
+    }
+    .relogio{
+        height: 200px;
+        width: 400px;
+    }
+
+    .relogio div {
+        height: 150px;
+        width: 70px;
+    }
+
+    .horas, .minutos, .segundos {
+        font-size: 4em;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
